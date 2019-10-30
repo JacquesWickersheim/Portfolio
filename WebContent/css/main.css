@@ -127,6 +127,32 @@ a
 	justify-content: space-between;
 }
 
+.realisations
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	
+	color: cyan;
+	
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px blue;
+}
+
+.titre_résu
+{
+	color: red;
+	text-decoration: underline;
+	
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+
 
 
 
