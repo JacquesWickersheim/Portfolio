@@ -120,6 +120,13 @@ a
 	margin-right: 180px;
 }
 
+.main
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .realisations
 {
 	display: flex;
