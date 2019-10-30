@@ -6,6 +6,7 @@ body
 	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA7NZDfweDSCzuWfoX2rlRHhy9HZFGC4dxdbKBYisr9YYXPZVV&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA7NZDfweDSCzuWfoX2rlRHhy9HZFGC4dxdbKBYisr9YYXPZVV&s');
 	background-size: cover;
 	background-image: no-repeat;
+	background-opacity: 0.5;
 }
 
 .titre1
@@ -60,6 +61,12 @@ a
 	border-right: 2px solid red;
 }
 
+.flex1
+{
+	display: flex;
+	flex-direction: row;
+}
+
 .infos_moi
 {
 	display: flex;
@@ -92,8 +99,33 @@ a
 
 .pied_page
 {
+	display: flex;
+	justify-content: center;
 	
-}]
+	color: red;
+	text-decoration: none;
+	
+	border-top: 5px solid lime;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px red;
+	
+	margin-bottom: 5px;
+}
+
+.img
+{
+	display: flex;
+	justify-content: right;
+	align-item: right;
+	margin-right: 180px;
+}
+
+.main
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
 
 
